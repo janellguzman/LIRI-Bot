@@ -19,7 +19,7 @@ switch (action) {
 
     case "spotify-this-song":
         if (process.argv.length < 4) {
-            value = "The Girl is Mine"
+            value = "The Sign"
         }
         getSpotify(value);
         break;
